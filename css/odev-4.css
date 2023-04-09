@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+section.container{
+    padding: 50px 40px 5px 40px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid lightgray;
+    width: 80%;
+}
+
+section.container .ust{
+    text-align: center;
+    position: relative;
+}
+
+section.container .ust h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+section.container .ust p{
+    font-size: 0.7rem;
+    margin: 0;
+}
+
+section.container .ust span{
+    position: absolute;
+    font-size: 2rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0.05;
+    background-color: rgb(239, 234, 234);
+    font-weight: 700;
+}
+
+section.container .alt{
+    display: flex;
+    gap: 30px;
+    
+}
+
+section.container .alt-sol{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 2;
+}
+
+section.container .alt-sol div:last-child{
+    display: flex;
+    padding: 10px;
+    gap: 160px;
+    
+}
+
+section.container .alt-sol div:last-child h4{
+    font-weight: 600;
+    margin: 0;
+    font-size: 1.2rem;
+    
+}
+
+section.container .alt-sol div:last-child p{
+    font-size: 0.8rem;
+    margin: 5px 0;
+}
+
+section .alt .alt-sag{
+    margin-top: 15px;
+    flex: 1;
+}
+
+section .alt .alt-sag img{
+    width: 100%;
+}
+
+
+

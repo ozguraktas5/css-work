@@ -1,0 +1,12 @@
+.menu ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.menu ul li{
+    background-color: brown;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
